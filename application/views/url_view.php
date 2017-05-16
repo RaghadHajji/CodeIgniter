@@ -20,7 +20,7 @@ echo form_close();
 
 if(isset($short_url))
 {
-	echo '<a href="'.base_url().$short_url.'" target="_blank">'.base_url().$short_url.'</a>'; //URL access to a resource (such as css, js, image), use base_url() 
+	echo '<a href="'.base_url().$short_url.'" target="_blank">'.base_url().$short_url.'</a>'; // use base_url() 
 //	or i can use it without base url 
 	// echo '<a href=".$short_url.'" target="_blank">'.$short_url.'</a>';
 }
